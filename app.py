@@ -45,7 +45,7 @@ st.markdown("""
 data = pd.read_csv("Dataset/cleaned_crime_data.csv")
 clustered_data = pd.read_csv("Dataset/crime_clustered_data.csv")
 
-model = joblib.load("models/crime_prediction_model.pkl")
+model = joblib.load("Models/crime_prediction_model.pkl")
 
 # ---------------------------
 # SIDEBAR — SINGLE UNIFIED NAVIGATION
